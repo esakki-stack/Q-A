@@ -1,0 +1,50 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Runtime files
+*.log
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated models and private artifacts
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+models/*.onnx
+model_cache/
+
+# Private data and generated outputs
+/data/private/
+/data/raw/private/
+/data/uploads/
+/data/outputs/
+
+# Historical/archive material is not part of the active application
+/archive/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Other generated files
+*.pyc
